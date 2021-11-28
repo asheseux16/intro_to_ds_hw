@@ -1,0 +1,294 @@
+/*上半部*/
+.main {
+	background-color: #22333B;
+	color: white;
+	padding: 15px 0px 5px;
+	border-radius: 5px;
+	position: fixed;
+	left: 9px;
+	right: 9px;
+}
+
+.system {
+	padding: 0px 20px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.system a {
+	text-decoration: none;
+	color: #22333B;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+p {margin: 1px;}
+
+.top {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 2px;
+	overflow: hidden;
+	background-color: #22333B;
+}
+
+.top li {
+	float: left;
+	font-size: 16px;
+}
+
+.list1 a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.dropdown a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.cidropdown {
+	display: none;
+	background-color: white;
+	position: absolute;
+	overflow: auto;
+	box-shadow: 2px 0px 5px 1px black;
+	z-index: 1;
+}
+
+.cidropdown a {
+	display: block;
+	color: black;
+	text-align: left;
+	font-size: 14px;
+	padding: 12px;
+}
+
+li a:hover {
+	font-size: 17px;
+	padding: 9px 19px;
+}
+
+.dropdown:hover .cidropdown {
+	display: block;
+}
+
+.cidropdown a:hover {
+	background-color: #F2F4F3;
+	font-size: 14px;
+	text-align: left;
+	padding: 12px;
+}
+
+
+
+/*左半部*/
+.left {
+	float: left;
+	margin-top: 15px;
+	background-color: #96c4e3;
+	width: 385px;
+	height: auto;
+	padding: 2px 30px;
+	border-radius: 5px;
+	position: fixed;
+	bottom: 10px;
+	top: 95px;
+	z-index: -1;
+}
+
+.announcement {
+	margin-top: 12px;
+	margin-bottom: 10px;
+	display: block;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+.button {
+	background-color: white;
+	margin: 0px 15px 20px 0px;
+	width: 160px;
+	height: 160px;
+	margin-left: 15px;
+	border-color: #22333B;
+	border-radius: 10px;
+}
+
+.button:hover {
+ 	transform: rotate(1deg);
+}
+
+.btns {
+	float: left;
+}
+
+.button img {
+	display: block;
+	width: 90px;
+	height: 90px;
+	position: relative;
+	left: 26px;
+}
+
+.btn_text {
+	
+	font-size: 16px;
+}
+
+
+
+/*右半部*/
+.right {
+	display: inline-block;
+	background-color: white;
+	margin-top: 101px;
+	width: 745px;
+	height: 426px;
+	border-radius: 5px;
+	float: right;
+	overflow: scroll;
+}
+
+.right::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*右半部上方*/
+.upper-right {
+	background-color: #96c4e3;
+	width: 745px;
+	height: auto;
+	border-radius: 5px;
+	float: right;
+	
+}
+
+.banner p {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	padding: 10px;
+}
+
+.ideas {
+	background-color: white;
+	display: inline-block;
+	margin: 0px 2px;
+	width: 691px;
+	height: auto;
+	padding: 20px 25px 20px 25px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+/*.farthest {
+	background-color: white;
+	width: 690px;
+	height: 80px;
+	float: right;
+	overflow: hidden;
+}
+
+@keyframes slide_animation {
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:80px;}
+    30% {left:80px;}
+    40% {left: 160px;}
+    50% {left: 160px;}
+    60% {left: 80px;}
+    70% {left: 80px;}
+    80% {left: 0px;}
+    90% {left: 0px}
+    100% {left: 0px}
+}
+
+.slide {
+	width: 2070px;
+  	height: 80px;
+  	margin: 0 0 0 -160px;
+  	position: relative;
+	animation-name: slide_animation;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	float: right;
+}*/
+
+.content {
+	padding: 5px 5px 5px 20px;
+	width: auto;
+	height: auto;
+	float: left;
+	font-family: Arial;
+}
+
+.content a {
+	text-decoration: none;
+	color: black;
+}
+
+.content a:hover {
+	color: #96c4e3;
+}
+
+
+
+/*右半部下方*/
+.bottom-right {
+	background-color: #96c4e3;
+	margin: 10px 0px 0px 20px;
+	width: 745px;
+	height: auto;
+	border-radius: 5px;
+	float: right;
+	
+}
+
+.ideas2 {
+	background-color: white;
+	display: inline-block;
+	margin: 0px 2px 4px 2px;
+	width: auto;
+	height: auto;
+	padding: 20px 20px 0px 20px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.brcontentttl {
+	padding: 10px 0px 0px 0px;
+}
+
+
+
+/*固定圖片*/
+.fixedpic {
+	background-color: #F9EBE0;
+	display: block;
+	padding: 10px;
+	position: fixed;
+	right: 15px;
+	bottom: 18px;
+	border: 2px solid;
+	border-color: #22333B;
+	border-radius: 20px;
+}
+
+.fixedpic a {
+	text-decoration: none;
+	color: #22333B;
+	font-size: 20px;
+	font-weight: bold;
+}
